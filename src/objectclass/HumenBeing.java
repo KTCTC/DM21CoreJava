@@ -2,7 +2,7 @@ package objectclass;
 
 public class HumenBeing {
 
-	String name;
+	 String name;
 	int age;
 	float weight = 89.55f;
 
