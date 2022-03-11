@@ -17,6 +17,7 @@ public class VeriableTypesClass2 {
 		
 		System.out.println(oo.a);
 		System.out.println(a);
+		sampleNonStaticMethod();
 		
 	}
 	
@@ -25,6 +26,8 @@ public class VeriableTypesClass2 {
 		System.out.println("sample Non Static Method");
 		System.out.println(abcd);
 		System.out.println(name);
+		sampleStaticMethod();
+		
 		
 	}
 	
@@ -34,6 +37,7 @@ public class VeriableTypesClass2 {
 		VeriableTypesClass2 obj = new VeriableTypesClass2();
 		obj.name = "PPPPPPPP";
 		obj.sampleNonStaticMethod();
+		sampleStaticMethod();
 		
 		
 	}

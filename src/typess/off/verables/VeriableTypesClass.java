@@ -2,7 +2,7 @@ package typess.off.verables;
 
 public class VeriableTypesClass {
 	String name = "KTCTC";
-	int abcd = 89;
+	 int abcd = 89;
 	
 	static float pqr = 56.55f;
 	
@@ -10,7 +10,7 @@ public class VeriableTypesClass {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int ght = 89;
-		
+		 int abcd = 89;
 		VeriableTypesClass obj = new VeriableTypesClass();
 		VeriableTypesClass obj2 = new VeriableTypesClass();
 		obj.name = "PQRC";
@@ -20,10 +20,10 @@ public class VeriableTypesClass {
 		System.out.println(obj2.pqr);
 		
 		System.out.println(pqr);
-		//obj.c = 78;		
+		obj.c = 78;		
 		//obj.ght = 90;
 		
-		//System.out.println(c);
+		System.out.println(abcd);
 
 	}
 	
@@ -33,6 +33,7 @@ public class VeriableTypesClass {
 		int a = 89;
 		int b = 66;
 		int c = a + b;
+		 a = 9;
 		
 		System.out.println(c);
 		
