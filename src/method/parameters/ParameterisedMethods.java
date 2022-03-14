@@ -17,6 +17,7 @@ public class ParameterisedMethods {
 		obj.substraction(45, 23);
 		obj.sample(34, "KTCTC", 45.45f);
 		ParameterisedMethods.sample(34, "ANT", 45.56f);
+		
 
 	}
 	
