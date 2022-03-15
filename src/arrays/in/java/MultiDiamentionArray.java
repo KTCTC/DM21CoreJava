@@ -15,6 +15,7 @@ public class MultiDiamentionArray {
 		System.out.println(pq[1]);
 		
 		Arrays.sort(pq);
+		Arrays.sort(arrMulti); // it will not sort multidimentional array
 		
 		boolean flag = Arrays.equals(arrMulti[1], arrMulti[3]);
 		System.out.println(flag);

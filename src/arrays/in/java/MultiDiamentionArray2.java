@@ -1,11 +1,10 @@
 package arrays.in.java;
 
-import java.util.Arrays;
 
 public class MultiDiamentionArray2 {
 
 	public static void main(String[] args) {
-		
+				
 		int arr[][] = {{2,4},{6,3}};
 		int arr1[][] = {{23,56}, {3,6}};
 		

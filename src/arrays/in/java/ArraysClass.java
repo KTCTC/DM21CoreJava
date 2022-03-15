@@ -12,6 +12,7 @@ public class ArraysClass {
 		ArraysClass obj = new ArraysClass();
 		
 		int arr[] = {23,45,2,1,56};
+		
 		int arr1[] = {23,45,2,1,56};
 		byte b = 45;
 		byte c = 45;
