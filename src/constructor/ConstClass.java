@@ -19,7 +19,7 @@ public class ConstClass {
 		display();
 		
 	}
-	public ConstClass(int b, int y)
+	public  ConstClass(int b, int y)
 	{
 		System.out.println("This is one parameter constructor");
 		a = b;
@@ -47,8 +47,7 @@ public class ConstClass {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		ConstClass obj = new ConstClass();
-		
+		ConstClass obj = new ConstClass();		
 		
 		ConstClass oo = new ConstClass();
 		ConstClass obj1 = new ConstClass(23);
@@ -64,9 +63,9 @@ public class ConstClass {
 		obj.ConstClass();
 		obj.ConstClass();
 		obj.ConstClass();
-		obj.ConstClass();
-		
+		obj.ConstClass();		
 		obj.sample();
+		
 	
 
 	}
@@ -82,6 +81,7 @@ public class ConstClass {
 	public void ConstClass()
 	{
 		System.out.println("THis is sample method of class name");
+		
 	}
 	
 	public void sample()
