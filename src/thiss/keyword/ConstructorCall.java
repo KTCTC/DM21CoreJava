@@ -21,7 +21,7 @@ public class ConstructorCall {
 	
 	public ConstructorCall(int g)
 	{
-		this();
+		this();		
 		System.out.println("This is single parameter constructor");
 		a = g;
 		
