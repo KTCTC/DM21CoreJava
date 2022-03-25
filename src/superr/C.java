@@ -3,6 +3,7 @@ package superr;
 public class C extends B{
 	int aa = 5555;
 	static int stAA = 777777;
+	int aaa = 89;
 	
 	public C()
 	{
@@ -12,7 +13,7 @@ public class C extends B{
 	
 	public C(int a)
 	{
-		this();	
+	super(56);
 		System.out.println("Parameterized constructor of C");
 	}
 	
@@ -35,7 +36,7 @@ public C(int a, int b)
 		System.out.println(stAA);
 		System.out.println(super.aa);
 		System.out.println(super.stAA);
-		System.out.println(aaa);
+		System.out.println(super.aaa);
 		super.nonStatic();
 		ac();
 		super.ac();
