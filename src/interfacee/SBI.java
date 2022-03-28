@@ -22,19 +22,21 @@ public class SBI implements ReserveBank{
 	
 	public static void main(String[] args) {
 		
+		ReserveBank.staticMethodFromInterface();
+		
 		
 		ReserveBank obj = new SBI();
-		
-		System.out.println(obj.abcd);
-		System.out.println(obj.pqrs);
+		obj.sampleDefaultMethodFromInterface();		
+		System.out.println(obj.ABCD);
+		System.out.println(obj.PQRS);
 		obj.carLoanInterestRate();
 		obj.homeLoadInterestRate();
 		
 		
 		
 		
-		SBI oo = new SBI();
-		System.out.println(oo.abcd);
+		SBI oo = new SBI();		
+		System.out.println(oo.ABCD);
 		oo.homeLoadInterestRate();
 		oo.carLoanInterestRate();
 		oo.personalLoan();
@@ -43,6 +45,25 @@ public class SBI implements ReserveBank{
 	@Override
 	public void fixedDepositeInterestRate() {
 		System.out.println("SBI fixed deposite  interest rate = 9 pa");
+	}
+
+	@Override
+	public void currancyConverter() {
+
+		System.out.println("SBI currancy converter  rate = 1 %");
+		
+	}
+
+	@Override
+	public void sampleFromIndianGov() {
+	System.out.println("Sample from Indian Gov");
+		
+	}
+
+	@Override
+	public void sameNameMethod() {
+	System.out.println("Same Name method");
+		
 	}
 
 }

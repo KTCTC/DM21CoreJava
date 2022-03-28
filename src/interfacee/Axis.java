@@ -1,14 +1,14 @@
 package interfacee;
 
-public class Axis implements ReserveBank {
+public class Axis implements WorldBank, IndianGov {
 
-	@Override
+
 	public void homeLoadInterestRate() {
 		System.out.println("Axis car loan interest rate = 8.8 pa");
 
 	}
 
-	@Override
+	
 	public void carLoanInterestRate() {
 		System.out.println("Axis car loan interest rate = 7.5 pa");
 
@@ -19,18 +19,37 @@ public class Axis implements ReserveBank {
 	}
 
 
-	@Override
+	
 	public void fixedDepositeInterestRate() {
 		System.out.println("Axis fixed deposite  interest rate = 4 pa");
 	}
 	public static void main(String[] args) {
 
-		ReserveBank obj = new Axis();
+		Axis obj = new Axis();
 
-		System.out.println(obj.abcd);
-		System.out.println(obj.pqrs);
-		obj.carLoanInterestRate();
-		obj.homeLoadInterestRate();
+obj.sameNameMethod();
+		
+	}
+
+
+	@Override
+	public void sampleFromIndianGov() {
+		System.out.println("Sample from Indian Gov");
+		
+		
+	}
+
+
+	@Override
+	public void currancyConverter() {
+		System.out.println("Axis bank currancy converter rate is  = 1.5%");
+	}
+
+
+	@Override
+	public void sameNameMethod() {
+		System.out.println("Sample same name method");
+		
 	}
 
 }
