@@ -16,6 +16,7 @@ public abstract class AbstractClass extends AbstractSampleClass{
 		abcd = a;
 		dfg = b;
 	}
+	
 	public abstract void abstractMethod1();
 	
 	public void samplreNonstaticMethosd()

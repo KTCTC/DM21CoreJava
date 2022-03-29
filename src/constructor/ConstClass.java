@@ -71,7 +71,7 @@ public class ConstClass {
 	}
 	
 	
-	public void display()
+	 void display()
 	{
 		System.out.println("Integer value  = " +a);
 		System.out.println("Strin gvalue = "+name);
