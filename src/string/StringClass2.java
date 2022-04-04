@@ -9,13 +9,14 @@ public class StringClass2 {
 		String str1 = "Welcome to KTCTC";
 		String str3 = "   Welcome to KTCTC   ";
 		String str2 = "     Welcome     to    KTCTC    ";
-		 
+		
 		String dd10 = str1.toUpperCase();
 		System.out.println(dd10);
 		
 		String dd9 = str1.toLowerCase();
 		System.out.println(dd9);
 		System.out.println(str1);
+		
 		
 		boolean f7 = str1.equalsIgnoreCase("Welcome to ktctc");
 		System.out.println(f7);
