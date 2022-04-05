@@ -13,7 +13,10 @@ public class ExceptionHandling2 {
 			int z = Integer.parseInt(str1); 
 			c = a / b;
 			 System.out.println(nn.charAt(3));
-		} catch (ArithmeticException e) {
+		} 
+		
+		
+		catch (ArithmeticException e) {
 			
 			c = a;
 
@@ -21,6 +24,11 @@ public class ExceptionHandling2 {
 		catch (NullPointerException e) {
 
         System.out.println("We have null string plese check string once");
+		}
+		
+		catch (Exception e)
+		{
+			System.out.println("Unhandaled exception");
 		}
 
 		System.out.println("Value of c = " + c);

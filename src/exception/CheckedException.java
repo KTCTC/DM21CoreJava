@@ -40,6 +40,8 @@ public class CheckedException {
 	{
 		DriverManager.getConnection("123.34.23.13", "sdfsf", "4545");
 		Class.forName("exception.UncheckedExceptions");
+		
+		
 	}
 
 }

@@ -12,7 +12,29 @@ public class Sample {
 		}
 	
 	public static void main(String[] args) throws FileNotFoundException {
-		sm();
+		
+		int z = getIntValue();
+		System.out.println(z);
+		
+	}
+	
+	
+	public static int getIntValue()
+	{
+		
+		try {
+			
+			return 2;
+			
+		} catch (Exception e) {
+			return 5;
+			
+		}		
+		finally {			
+		
+			return 99;
+		}
+		
 	}
 
 }
