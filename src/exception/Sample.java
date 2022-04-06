@@ -29,7 +29,9 @@ public class Sample {
 		} catch (Exception e) {
 			return 5;
 			
-		}		
+		}
+		
+		
 		finally {			
 		
 			return 99;
