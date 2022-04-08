@@ -2,6 +2,7 @@ package collection;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 
 public class ArrayListClass {
@@ -21,6 +22,7 @@ public class ArrayListClass {
 		int siz = data.size();
 		System.out.println(siz);		
 		data.add(new Integer(44));
+		//data.add(null);
 		data.add(c);
 		data.add(55);
 		data.add(a);		
@@ -33,6 +35,15 @@ public class ArrayListClass {
 	  	Collections.sort(data);		
 	  	System.out.println(y);
 		System.out.println(data);
+		
+		Iterator<Integer> itr = data.iterator();
+		
+		while (itr.hasNext()) {
+			
+			System.out.println(itr.next());
+		}
+		
+		
 		
 		for (int i=0; i<data.size();i++)
 		{

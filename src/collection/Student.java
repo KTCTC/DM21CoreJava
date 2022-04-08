@@ -2,8 +2,8 @@ package collection;
 
 public class Student {
 	
-	int rollnum;
-	String name;
+	public int rollnum;
+	public String name;
 	
 	public Student(int a, String str)
 	{
